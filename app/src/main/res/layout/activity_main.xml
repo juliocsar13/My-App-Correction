@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profondos"
+    android:gravity="center"
+    android:id="@+id/alvaro">
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/llevame"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:orientation="vertical">
+
+        <EditText
+
+            style="@style/MyEditex"
+            android:ems="10"
+            android:hint="Usuario"
+            android:id="@+id/usuario"/>
+        <EditText
+            style="@style/MyEditex"
+            android:ems="10"
+            android:hint="Contraseña"
+            android:password="true"
+
+            android:id="@+id/passwer"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp">
+
+
+        <Button
+            style="@style/MyButton_uno"
+            android:text="Iniciar sesion"
+            android:id="@+id/btnLogin"
+            android:onClick="startMainActivity"/>
+
+        <Button
+            style="@style/MyButton_dos"
+            android:text="Registrarse"
+            android:id="@+id/btnRegister"
+            android:onClick="startRegisterActivity" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
