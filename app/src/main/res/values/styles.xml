@@ -20,7 +20,7 @@
         <item name = "android:layout_height">@dimen/layout_height_button</item>
         <item name = "android:layout_gravity">center_horizontal</item>
         <item name = "android:gravity">center</item>
-        <item name = "layout_marginTop">3dp</item>
+        <item name = "android:layout_marginTop">@dimen/layout_marginTop</item>
         <item name = "android:layout_marginTop">@dimen/layout_marginTop</item>
         <item name = "android:background">#ffff1213</item>
     </style>

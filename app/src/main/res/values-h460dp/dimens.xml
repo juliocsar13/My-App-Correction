@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_with_edit">270dp</dimen>
+    <dimen name="layout_height_edit">50dp</dimen>
+    <dimen name="layout_marginTop">8dp</dimen>
+    <dimen name="layout_with_button">200dp</dimen>
+    <dimen name="layout_height_button">45dp</dimen>
+</resources>
