@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <dimen name="layout_with_edit">250dp</dimen>
     <dimen name="layout_height_edit">47dp</dimen>
-    <dimen name="layout_marginTop">5dp</dimen>
+
     <dimen name="layout_with_button">200dp</dimen>
     <dimen name="layout_height_button">40dp</dimen>
+
+    <!--margen de imagen principal-->
+    <dimen name="layout_heght_image">190dp</dimen>
+    <!--margin tp de buttons/layouts-->
+    <dimen name="layout_marginTop">5dp</dimen>
+    <dimen name="layout_marginTop_layout">3dp</dimen>
+
 
 </resources>

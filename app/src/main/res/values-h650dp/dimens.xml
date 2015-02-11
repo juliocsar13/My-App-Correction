@@ -2,7 +2,9 @@
 <resources>
     <dimen name="layout_with_edit">300dp</dimen>
     <dimen name="layout_height_edit">55dp</dimen>
+
     <dimen name="layout_with_button">250dp</dimen>
     <dimen name="layout_height_button">50dp</dimen>
+
     <dimen name="layout_marginTop">10dp</dimen>
 </resources>
