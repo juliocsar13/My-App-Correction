@@ -62,7 +62,7 @@
             style="@style/MyButton_dos"
             android:text="Registrarse"
             android:id="@+id/btnRegister"
-            android:onClick="startRegisterActivity" />
+            android:onClick="registro" />
 
 
 

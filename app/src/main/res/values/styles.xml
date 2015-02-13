@@ -33,5 +33,21 @@
         <item name = "android:background">#ff48ff31</item>
     </style>
 
+    <style name="MyEdith_registre">
+        <item name = "android:layout_width">@dimen/layout_with_edit_registro</item>
+        <item name = "android:layout_height">@dimen/layout_height_edit_registro</item>
+        <item name = "android:layout_gravity">center_horizontal</item>
+        <item name = "android:layout_marginTop">@dimen/layout_marginTop_registro</item>
+        <item name = "android:gravity">center</item>
+        <item name = "android:background">#ffff</item>
+    </style>
 
+    <style name="MyButton_registro">
+        <item name = "android:layout_width">@dimen/layout_with_button</item>
+        <item name = "android:layout_height">@dimen/layout_height_button</item>
+        <item name = "android:layout_gravity">center_horizontal</item>
+        <item name = "android:gravity">center</item>
+        <item name = "android:layout_marginTop">@dimen/layout_marginTop</item>
+        <item name = "android:background">#ff48ff31</item>
+    </style>
 </resources>
