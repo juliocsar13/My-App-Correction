@@ -4,36 +4,27 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
 
 
-
-
+    <!--DIMENSIONES DE LAYOUT LOGIN - REGISTRARSE-->
     <dimen name="layout_with_edit">250dp</dimen>
     <dimen name="layout_height_edit">47dp</dimen>
-
-
-
-
-
-
     <dimen name="layout_marginTop">5dp</dimen>
-
-
-
-
     <dimen name="layout_with_button">200dp</dimen>
     <dimen name="layout_height_button">40dp</dimen>
-
-
-
     <dimen name="layout_heght_image">190dp</dimen>
     <dimen name="text_size_standard">17sp</dimen>
 
 
 
+    <!--DIMESIONES DE LAYOUT REGISTRO-->
 
-
-    <dimen name="layout_with_edit_registro">220dp</dimen>
-    <dimen name="layout_height_edit_registro">45dp</dimen>
+    <dimen name="layout_with_edit_registro">200dp</dimen>
+    <dimen name="layout_height_edit_registro">43dp</dimen>
+    <dimen name="layout_with_button_registro">200dp</dimen>
+    <dimen name="layout_height_button_registro">40dp</dimen>
     <dimen name="text_size_registro">18sp</dimen>
     <dimen name="layout_marginTop_registro">3dp</dimen>
+    <dimen name="layout_marginTop_titulo_registro">3dp</dimen>
+    <dimen name="layout_marginTop_button_registro">8dp</dimen>
+
 
 </resources>

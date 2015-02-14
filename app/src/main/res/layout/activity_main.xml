@@ -20,8 +20,8 @@
             android:layout_width="match_parent"
             android:layout_height="190dp"
             android:src="@drawable/llevame"
-            android:layout_gravity="center_horizontal" />
-
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/alvaro_gey" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
@@ -33,7 +33,7 @@
             style="@style/MyEditex"
             android:ems="10"
             android:hint="Usuario"
-            android:id="@+id/usuario"/>
+            android:id="@+id/usuario" />
         <EditText
             style="@style/MyEditex"
             android:ems="10"

@@ -17,45 +17,53 @@
         android:text="Resgistrate Aqui"
         android:id="@+id/textView"
         android:singleLine="false"
-        android:textSize="28sp"
-        android:layout_gravity="center_horizontal" />
+        android:textSize="30sp"
+        android:layout_gravity="top|center_horizontal" />
+
 
     <EditText
 
         style="@style/MyEdith_registre"
         android:ems="10"
         android:hint="Usuario"
-        android:id="@+id/edtUserName" />
+        android:id="@+id/edtUserName"
+        android:layout_marginTop="@dimen/layout_marginTop_titulo_registro" />
     <EditText
         style="@style/MyEdith_registre"
         android:ems="10"
         android:hint="Contraseña"
         android:password="true"
         android:id="@+id/edtPassword"/>
+
     <EditText
         style="@style/MyEdith_registre"
         android:ems="10"
         android:hint="Nombre"
         android:id="@+id/edtName"/>
+
     <EditText
         style="@style/MyEdith_registre"
         android:ems="10"
         android:hint="Apellido"
         android:id="@+id/edtLastName" />
+
     <EditText
         style="@style/MyEdith_registre"
         android:ems="10"
         android:hint="E-mail"
         android:id="@+id/edtEmail"/>
+
     <EditText
         style="@style/MyEdith_registre"
         android:ems="10"
         android:hint="Numero - Tel"
         android:id="@+id/edtPhoneNumber"/>
+
     <Button
-        style="@style/MyButton_dos"
+        style="@style/MyButton_registro"
         android:text="Registrarse"
         android:id="@+id/btnRegister" />
+
 </LinearLayout>
 
 

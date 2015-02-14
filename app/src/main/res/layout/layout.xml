@@ -6,7 +6,7 @@
 
     <Button
         android:layout_width="320dp"
-        android:layout_height="460dp"
+        android:layout_height="510dp"
         android:text="New Button"
         android:id="@+id/button"
         android:layout_gravity="center_horizontal" />
