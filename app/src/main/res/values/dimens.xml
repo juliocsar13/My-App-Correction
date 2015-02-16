@@ -17,7 +17,7 @@
 
     <!--DIMESIONES DE LAYOUT REGISTRO-->
 
-    <dimen name="layout_with_edit_registro">200dp</dimen>
+    <dimen name="layout_with_edit_registro">220dp</dimen>
     <dimen name="layout_height_edit_registro">43dp</dimen>
     <dimen name="layout_with_button_registro">200dp</dimen>
     <dimen name="layout_height_button_registro">40dp</dimen>
