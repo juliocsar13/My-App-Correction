@@ -13,7 +13,7 @@
 
 
     <!--DIMENSIONES DE REGISTRO-->
-    <dimen name="layout_with_edit_registro">260dp</dimen>
+    <dimen name="layout_with_edit_registro">280dp</dimen>
     <dimen name="layout_height_edit_registro">55dp</dimen>
     <dimen name="text_size_registro">18sp</dimen>
     <dimen name="layout_marginTop_registro">8dp</dimen>

@@ -59,6 +59,7 @@
             android:onClick="startMainActivity"/>
 
         <Button
+
             style="@style/MyButton_dos"
             android:text="Registrarse"
             android:id="@+id/btnRegister"
