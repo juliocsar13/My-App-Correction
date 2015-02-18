@@ -13,29 +13,32 @@ import android.widget.Button;
 
 public class MainActivity extends Activity {
 
-  //  private MediaPlayer np;
-  //  private Button btnRegister;
+    private MediaPlayer np;
+    private Button btnRegister;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-   //     btnRegister = (Button) findViewById(R.id.btnRegister);
-   //     btnRegister.setOnClickListener(new View.OnClickListener(){
-   //         @Override
-   //         public void onClick(View view){
-   //             np = MediaPlayer.create(MainActivity.this,R.raw.julio);
-   //             np.start();
-   //         }
-
-   //     });
 
     }
     public void registro(View view)
     {
        Intent registros = new Intent(this,MainActivity2.class);
-        startActivity(registros);
+       startActivity(registros);
+
+
+       btnRegister = (Button) findViewById(R.id.btnRegister);
+       btnRegister.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View view){
+                np = MediaPlayer.create(MainActivity.this,R.raw.julio);
+                np.start();
+            }
+
+        });
     }
 
 
