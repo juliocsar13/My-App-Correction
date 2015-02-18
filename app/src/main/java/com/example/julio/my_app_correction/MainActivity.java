@@ -27,8 +27,6 @@ public class MainActivity extends Activity {
     {
        Intent registros = new Intent(this,MainActivity2.class);
        startActivity(registros);
-
-
        btnRegister = (Button) findViewById(R.id.btnRegister);
        btnRegister.setOnClickListener(new View.OnClickListener(){
 
@@ -37,7 +35,6 @@ public class MainActivity extends Activity {
                 np = MediaPlayer.create(MainActivity.this,R.raw.julio);
                 np.start();
             }
-
         });
     }
 
