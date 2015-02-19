@@ -3,7 +3,6 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
 
-
     <!--DIMENSIONES DE LAYOUT LOGIN - REGISTRARSE-->
     <dimen name="layout_with_edit">250dp</dimen>
     <dimen name="layout_height_edit">47dp</dimen>
@@ -12,8 +11,6 @@
     <dimen name="layout_height_button">40dp</dimen>
     <dimen name="layout_heght_image">190dp</dimen>
     <dimen name="text_size_standard">17sp</dimen>
-
-
 
     <!--DIMESIONES DE LAYOUT REGISTRO-->
 
@@ -26,9 +23,7 @@
     <dimen name="layout_marginTop_titulo_registro">3dp</dimen>
     <dimen name="layout_marginTop_button_registro">8dp</dimen>
 
-
     <!--DIMENSIONES PARA ACTIVITY MAIN-->
-
 
     <dimen name="layout_width_main_edith">265dp</dimen>
     <dimen name="layout_height_main_edith">53dp</dimen>
@@ -39,6 +34,15 @@
     <dimen name="text_size_main_edith">16sp</dimen>
     <dimen name="text_size_user_button">18sp</dimen>
 
-
-
+    <!--DIMENSIONES PARA LA LAYOUT USER-->
+<!--
+    <dimen name="layout_width_user_button_activity"></dimen>
+    <dimen name="layout_height_user_button_activity"></dimen>
+    <dimen name="layout_marginTop_user_text"></dimen>
+    <dimen name="layout_marginTop_user_button_activity"></dimen>
+    <dimen name="layout_marginTop_user_titulo_activity"></dimen>
+    <dimen name="text_size_user_activity_textView"></dimen>
+    <dimen name="text_size_user_activity_titulo"></dimen>
+    <dimen name="text_size_user_activity_button"></dimen>
+-->
 </resources>
