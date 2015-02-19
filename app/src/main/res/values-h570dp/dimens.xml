@@ -24,4 +24,15 @@
     <dimen name="layout_marginTop_button_registro">25dp</dimen>
 
 
+    <!--DIMENSIONES PARA ACTIVITY MAIN-->
+
+    <dimen name="layout_width_main_edith">295dp</dimen>
+    <dimen name="layout_height_main_edith">60dp</dimen>
+    <dimen name="layout_width_user_button">165dp</dimen>
+    <dimen name="layout_height_user_button">70dp</dimen>
+    <dimen name="layout_marginTop_main_edith">10dp</dimen>
+    <dimen name="layout_marginTop_user_button">20dp</dimen>
+    <dimen name="text_size_main_edith">19sp</dimen>
+    <dimen name="text_size_user_button">22sp</dimen>
+
 </resources>

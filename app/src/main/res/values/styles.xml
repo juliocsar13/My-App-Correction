@@ -48,4 +48,26 @@
         <item name = "android:layout_marginTop">@dimen/layout_marginTop_button_registro</item>
         <item name = "android:background">#ff48ff31</item>
     </style>
+
+    <style name="MyEdith_main_login">
+        <item name = "android:layout_width">@dimen/layout_width_main_edith</item>
+        <item name = "android:layout_height">@dimen/layout_height_main_edith</item>
+        <item name = "android:textSize">@dimen/text_size_main_edith</item>
+        <item name = "android:background"></item>
+        <item name = "android:layout_marginTop">@dimen/layout_marginTop_main_edith</item>
+        <item name = "android:gravity">center</item>
+        <item name = "android:textColor"></item>
+        <item name = "android:textColorHint"></item>
+    </style>
+
+    <style name="MyButton_main_user_login">
+        <item name = "android:layout_width">@dimen/layout_width_user_button</item>
+        <item name = "android:layout_height">@dimen/layout_height_user_button</item>
+        <item name = "android:textSize">@dimen/text_size_user_button</item>
+        <item name = "android:background"></item>
+        <item name = "android:layout_marginTop">@dimen/layout_marginTop_user_button</item>
+        <item name = "android:gravity">center</item>
+        <item name = "android:textColor"></item>
+
+    </style>
 </resources>
