@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:id="@+id/alvaro">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:id="@+id/user">
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="@dimen/layout_width_image_user"
+                android:layout_height="@dimen/layout_height_image_user"
+                android:id="@+id/imageView"
+                android:src="@drawable/usera" />
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_user_activity_titulo"
+                android:text="JULIO CESAR PARI"
+                android:layout_marginTop="@dimen/layout_marginTop_user_titulo_activity"
+                android:layout_marginBottom="@dimen/layout_marginBottom_user" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/layout_marginTop_user_layout">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/imagetelefono"
+                android:src="@drawable/telefono"
+                style="@style/MyImage_User_Data" />
+            <TextView
+                android:id="@+id/txtPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="996430766"
+                android:textSize="@dimen/text_size_user_activity_textView" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+
+            android:orientation="horizontal"
+            android:gravity="center"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/layout_marginTop_user_layout">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/imagdireccion"
+                android:src="@drawable/ubicacion"
+                style="@style/MyImage_User_Data" />
+            <TextView
+                android:id="@+id/txtAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ciudad perdida M.h Lt.100"
+                android:textSize="@dimen/text_size_user_activity_textView" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+
+            android:orientation="horizontal"
+
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/layout_marginTop_user_layout">
+
+            <ImageView
+
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/imagtiempo"
+                android:src="@drawable/tiempo"
+                style="@style/MyImage_User_Data" />
+            <TextView
+                android:id="@+id/txtDuration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="una hora y 30 minutos"
+                android:textSize="@dimen/text_size_user_activity_textView" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="5dp">
+
+            <Button
+                style="@style/MyButton_User"
+                android:text="Aceptar"
+                android:background="#71c837"
+                android:onClick="AcceptRequest" />
+            <Button
+                style="@style/MyButton_User"
+                android:background="#ff2a2a"
+                android:text="Cancelar"
+                android:onClick="CancelRequest"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

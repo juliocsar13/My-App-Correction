@@ -53,21 +53,34 @@
         <item name = "android:layout_width">@dimen/layout_width_main_edith</item>
         <item name = "android:layout_height">@dimen/layout_height_main_edith</item>
         <item name = "android:textSize">@dimen/text_size_main_edith</item>
-        <item name = "android:background"></item>
+
         <item name = "android:layout_marginTop">@dimen/layout_marginTop_main_edith</item>
         <item name = "android:gravity">center</item>
-        <item name = "android:textColor"></item>
-        <item name = "android:textColorHint"></item>
+
     </style>
 
     <style name="MyButton_main_user_login">
         <item name = "android:layout_width">@dimen/layout_width_user_button</item>
         <item name = "android:layout_height">@dimen/layout_height_user_button</item>
         <item name = "android:textSize">@dimen/text_size_user_button</item>
-        <item name = "android:background"></item>
+
         <item name = "android:layout_marginTop">@dimen/layout_marginTop_user_button</item>
         <item name = "android:gravity">center</item>
-        <item name = "android:textColor"></item>
+
 
     </style>
+
+    <style name="MyButton_User">
+        <item name = "android:layout_width">@dimen/layout_width_user_button_activity</item>
+        <item name = "android:layout_height">@dimen/layout_height_user_button_activity</item>
+        <item name = "android:layout_marginTop">@dimen/layout_marginTop_user_button_activity</item>
+        <item name = "android:textSize">@dimen/text_size_user_activity_button</item>
+        <item name = "android:gravity">center</item>
+    </style>
+
+    <style name="MyImage_User_Data">
+        <item name="android:layout_marginLeft">@dimen/layout_marginLeft_user</item>
+        <item name="android:layout_marginRight">@dimen/layout_marginRight_user</item>
+    </style>
+
 </resources>
