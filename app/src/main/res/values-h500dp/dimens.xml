@@ -10,7 +10,6 @@
     <!--<dimen name="layout_heght_image">190dp</dimen>-->
     <dimen name="text_size_standard">19sp</dimen>
 
-
     <!--DIMENSIONES DE LAYOUT REGISTRO-->
     <dimen name="layout_with_edit_registro">250dp</dimen>
     <dimen name="layout_height_edit_registro">50dp</dimen>
@@ -21,9 +20,7 @@
     <dimen name="layout_with_button_registro">200dp</dimen>
     <dimen name="layout_height_button_registro">40dp</dimen>
 
-
     <!--DIMENSIONES PARA ACTIVITY MAIN-->
-
 
     <dimen name="layout_width_main_edith">285dp</dimen>
     <dimen name="layout_height_main_edith">60dp</dimen>
@@ -34,32 +31,26 @@
     <dimen name="text_size_main_edith">18sp</dimen>
     <dimen name="text_size_user_button">20sp</dimen>
 
-
-
-
     <!--DIMENSIONES PARA LA LAYOUT USER-->
-<!--
+
     <dimen name="layout_width_user_button_activity">220dp</dimen>
-    <dimen name="layout_height_user_button_activity">43dp</dimen>
-    <dimen name="layout_marginTop_user_layout">5dp</dimen>
-    <dimen name="layout_marginTop_user_button_activity">10dp</dimen>
+    <dimen name="layout_height_user_button_activity">45dp</dimen>
+    <dimen name="layout_marginTop_user_layout">7dp</dimen>
+    <dimen name="layout_marginTop_user_button_activity">15dp</dimen>
 
     <dimen name="layout_marginStart">20dp</dimen>
-    <dimen name="text_size_user_activity_textView">14sp</dimen>
-    <dimen name="text_size_user_activity_titulo">15sp</dimen>
+    <dimen name="text_size_user_activity_textView">15sp</dimen>
+    <dimen name="text_size_user_activity_titulo">16sp</dimen>
     <dimen name="text_size_user_activity_button">14sp</dimen>
 
-
     <dimen name="layout_marginRight_user">10dp</dimen>
-    <dimen name="layout_marginLeft_user">20dp</dimen>
+    <dimen name="layout_marginLeft_user">27dp</dimen>
 
-    <dimen name="layout_marginBottom_user">10dp</dimen>
-    <dimen name="layout_marginTop_user_titulo_activity">3dp</dimen>
+    <dimen name="layout_marginBottom_user">15dp</dimen>
+    <dimen name="layout_marginTop_user_titulo_activity">7dp</dimen>
 
+    <dimen name="layout_width_image_user">145dp</dimen>
+    <dimen name="layout_height_image_user">150dp</dimen>
+    <dimen name="layout_marginTop_image_user">25dp</dimen>
 
-
-    <dimen name="layout_width_image_user">110dp</dimen>
-    <dimen name="layout_height_image_user">110dp</dimen>
-
-    -->
 </resources>

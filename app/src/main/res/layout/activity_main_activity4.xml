@@ -9,7 +9,6 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-
         android:layout_height="match_parent"
         android:id="@+id/user">
 
@@ -25,7 +24,8 @@
                 android:layout_width="@dimen/layout_width_image_user"
                 android:layout_height="@dimen/layout_height_image_user"
                 android:id="@+id/imageView"
-                android:src="@drawable/usera" />
+                android:src="@drawable/usera"
+                android:layout_marginTop="@dimen/layout_marginTop_image_user" />
             <TextView
                 android:id="@+id/txtName"
                 android:layout_width="wrap_content"

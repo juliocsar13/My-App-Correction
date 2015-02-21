@@ -32,28 +32,25 @@
 
 
     <!--DIMENSIONES PARA LA LAYOUT USER-->
-<!--
-    <dimen name="layout_width_user_button_activity">220dp</dimen>
-    <dimen name="layout_height_user_button_activity">43dp</dimen>
-    <dimen name="layout_marginTop_user_layout">5dp</dimen>
-    <dimen name="layout_marginTop_user_button_activity">10dp</dimen>
 
-    <dimen name="layout_marginStart">20dp</dimen>
-    <dimen name="text_size_user_activity_textView">14sp</dimen>
-    <dimen name="text_size_user_activity_titulo">15sp</dimen>
-    <dimen name="text_size_user_activity_button">14sp</dimen>
+        <dimen name="layout_width_user_button_activity">250dp</dimen>
+        <dimen name="layout_height_user_button_activity">65dp</dimen>
+        <dimen name="layout_marginTop_user_layout">15dp</dimen>
+        <dimen name="layout_marginTop_user_button_activity">15dp</dimen>
 
+        <dimen name="layout_marginStart">20dp</dimen>
+        <dimen name="text_size_user_activity_textView">19sp</dimen>
+        <dimen name="text_size_user_activity_titulo">25sp</dimen>
+        <dimen name="text_size_user_activity_button">18sp</dimen>
 
-    <dimen name="layout_marginRight_user">10dp</dimen>
-    <dimen name="layout_marginLeft_user">20dp</dimen>
+        <dimen name="layout_marginRight_user">10dp</dimen>
+        <dimen name="layout_marginLeft_user">70dp</dimen>
 
-    <dimen name="layout_marginBottom_user">10dp</dimen>
-    <dimen name="layout_marginTop_user_titulo_activity">3dp</dimen>
+        <dimen name="layout_marginBottom_user">15dp</dimen>
+        <dimen name="layout_marginTop_user_titulo_activity">10dp</dimen>
 
+        <dimen name="layout_width_image_user">170dp</dimen>
+        <dimen name="layout_height_image_user">170dp</dimen>
+        <dimen name="layout_marginTop_image_user">120dp</dimen>
 
-
-    <dimen name="layout_width_image_user">110dp</dimen>
-    <dimen name="layout_height_image_user">110dp</dimen>
-
- -->
 </resources>

@@ -54,5 +54,6 @@
 
     <dimen name="layout_width_image_user">110dp</dimen>
     <dimen name="layout_height_image_user">110dp</dimen>
+    <dimen name="layout_marginTop_image_user">1dp</dimen>
 
 </resources>
