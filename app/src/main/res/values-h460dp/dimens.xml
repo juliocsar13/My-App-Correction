@@ -58,4 +58,19 @@
     <dimen name="layout_height_image_user">135dp</dimen>
     <dimen name="layout_marginTop_image_user">1dp</dimen>
 
+
+    <!--DIMENSIONES PARA EL LAYOUT MAIN ACTIVITY-->
+
+<!--    <dimen name="layout_witdh_edith_main">270dp</dimen>
+    <dimen name="layout_height_edith_main">57dp</dimen>
+
+    <dimen name="layout_width_button_main">200dp</dimen>
+    <dimen name="layout_height_button_main">55dp</dimen>
+
+    <dimen name="layout_marginTop_edith_main">30dp</dimen>
+    <dimen name="layout_marginTop_button_uno_main">18dp</dimen>
+    <dimen name="layout_marginTop_button_dos_main">8dp</dimen>
+
+    <dimen name="textize_edith_main">17sp</dimen>
+    <dimen name="textsize_button_main">15sp</dimen>-->
 </resources>
