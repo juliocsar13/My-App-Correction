@@ -56,16 +56,16 @@
             style="@style/MyButton_uno"
             android:text="Iniciar sesion"
             android:id="@+id/btnLogin"
-            android:onClick="startMainActivity"/>
+            android:onClick="startMainActivity"
+            android:textColor="#FFFFF5F9" />
 
         <Button
 
             style="@style/MyButton_dos"
             android:text="Registrarse"
             android:id="@+id/btnRegister"
-            android:onClick="registro" />
-
-
+            android:onClick="registro"
+            android:textColor="#FFFFF5F9" />
 
     </LinearLayout>
 

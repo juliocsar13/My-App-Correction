@@ -19,7 +19,7 @@
         <item name = "android:layout_gravity">center_horizontal</item>
         <item name = "android:gravity">center</item>
         <item name = "android:layout_marginTop">@dimen/layout_marginTop</item>
-        <item name = "android:background">#ffff1213</item>
+        <item name = "android:background">#ff5559ff</item>
     </style>
 
     <style name="MyButton_dos">
