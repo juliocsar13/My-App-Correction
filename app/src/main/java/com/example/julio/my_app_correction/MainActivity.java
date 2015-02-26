@@ -33,7 +33,6 @@ public class MainActivity extends Activity {
                 startActivity(registro);
             }
         });
-
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
