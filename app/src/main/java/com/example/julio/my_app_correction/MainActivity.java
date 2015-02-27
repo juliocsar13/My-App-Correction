@@ -27,13 +27,14 @@ public class MainActivity extends Activity {
 
             @Override
             public void onClick(View view) {
-                Intent registro =new Intent(MainActivity.this,MainActivity2.class);
+                Intent registro =new Intent(getApplicationContext(),MainActivity2.class);
                 np = MediaPlayer.create(MainActivity.this, R.raw.julio);
                 np.start();
                 startActivity(registro);
             }
         });
     }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
