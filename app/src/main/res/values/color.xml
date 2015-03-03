@@ -2,4 +2,6 @@
 <resources>
     <color name="blue">#ff1217ff</color>
     <color name="transparent">#ff9b9aff</color>
+    <color name="edith_transparet">#ffffff</color>
+
 </resources>

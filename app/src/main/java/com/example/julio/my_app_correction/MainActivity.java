@@ -15,25 +15,26 @@ import android.widget.Button;
 public class MainActivity extends Activity {
 
     private MediaPlayer np;
-    private Button btnRegister;
+    private Button btnPrimerRegister;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btnRegister = (Button) findViewById(R.id.btnRegister);
-        btnRegister.setOnClickListener(new View.OnClickListener() {
+        btnPrimerRegister = (Button) findViewById(R.id.btnRegister);
+        btnPrimerRegister.setOnClickListener(new View.OnClickListener() {
 
             @Override
-            public void onClick(View view) {
-                Intent registro =new Intent(getApplicationContext(),MainActivity2.class);
-                np = MediaPlayer.create(MainActivity.this, R.raw.julio);
-                np.start();
-                startActivity(registro);
+                public void onClick(View view) {
+                    Intent registro =new Intent(getApplicationContext(),MainActivity2.class);
+                    np = MediaPlayer.create(MainActivity.this, R.raw.julio);
+                    np.start();
+                    startActivity(registro);
             }
         });
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -52,8 +53,7 @@ public class MainActivity extends Activity {
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
-        }
-
+    }
         return super.onOptionsItemSelected(item);
     }
 }
