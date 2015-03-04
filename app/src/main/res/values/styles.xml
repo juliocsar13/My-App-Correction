@@ -37,7 +37,7 @@
         <item name = "android:layout_gravity">center_horizontal</item>
         <item name = "android:layout_marginTop">@dimen/layout_marginTop_registro</item>
         <item name = "android:gravity">center</item>
-        <item name = "android:background">#ffff</item>
+        <item name = "android:background">@drawable/select_focuset</item>
     </style>
 
     <style name="MyButton_registro">

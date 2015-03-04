@@ -3,9 +3,9 @@
 
     <gradient
 
-        android:endColor="#FFFFFF"
+        android:endColor="#0288D1"
         android:centerColor="#FFFFFF"
-        android:startColor="#FFFFFF"/>
+        android:startColor="#0288D1"/>
 
     <stroke
 
@@ -18,6 +18,5 @@
         android:topRightRadius="5dp"
         android:bottomLeftRadius="5dp"
         android:bottomRightRadius="5dp" />
-
 
 </shape>

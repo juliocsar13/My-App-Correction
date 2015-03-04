@@ -41,6 +41,26 @@
             android:layout_height="wrap_content"
             android:text="New Button 4"
             android:id="@+id/button11"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/select_focuset" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/editText"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/select_focuset" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText2"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText3"
             android:layout_gravity="center_horizontal" />
     </LinearLayout>
 </LinearLayout>
