@@ -1,49 +1,29 @@
 package com.example.julio.my_app_correction;
 
+import android.app.ActionBar;
 import android.app.Activity;
-import android.content.Intent;
-import android.media.MediaPlayer;
+import android.app.TabActivity;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
+import android.widget.TabHost;
 
 
-
-public class MainActivity extends Activity {
-
-    private MediaPlayer np;
-    private Button btnPrimerRegister;
-
+public class MainActivity3 extends TabActivity {
+    TabHost mTabHost;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_activity9);
-
-     /*   EditText edit= (EditText) findViewById(R.id.edit2);
-        edit.setEnabled(true);*/
-
-  /*      btnPrimerRegister = (Button) findViewById(R.id.btnRegister);
-        btnPrimerRegister.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-                public void onClick(View view) {
-                    Intent registro =new Intent(getApplicationContext(),MainActivity2.class);
-                    np = MediaPlayer.create(MainActivity.this, R.raw.julio);
-                    np.start();
-                    startActivity(registro);
-            }
-        });*/
+        setContentView(R.layout.activity_main_activity3);
+        mTabHost=getTabHost();
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(R.menu.menu_main_activity3, menu);
         return true;
     }
 
@@ -57,7 +37,8 @@ public class MainActivity extends Activity {
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
-    }
+        }
+
         return super.onOptionsItemSelected(item);
     }
 }
