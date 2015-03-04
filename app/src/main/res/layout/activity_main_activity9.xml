@@ -33,7 +33,8 @@
             android:ems="10"
             android:gravity="center"
             android:hint="NATIVO"
-            android:layout_marginTop="20dp"/>
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edith_register_usuario" />
         <EditText
             android:layout_width="fill_parent"
             android:layout_height="50dp"

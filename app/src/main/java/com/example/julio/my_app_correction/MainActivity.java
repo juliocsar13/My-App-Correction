@@ -15,9 +15,9 @@ import android.widget.EditText;
 
 public class MainActivity extends Activity {
 
-    private MediaPlayer np;
+/*    private MediaPlayer np;
     private Button btnPrimerRegister;
-
+*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
