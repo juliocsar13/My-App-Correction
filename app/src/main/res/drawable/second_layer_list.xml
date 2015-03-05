@@ -6,9 +6,7 @@
         </shape>
     </item>
     <item
-        android:top="-2dp"
-        android:left="-2dp"
-        android:right="-2dp">
+        >
         <shape>
             <solid android:color="@android:color/transparent" />
             <stroke
@@ -16,16 +14,4 @@
                 android:color="#C81F25" />
         </shape>
     </item>
-    <item
-        android:left="-3dp"
-        android:right="-3dp"
-        android:bottom="-3dp">
-        <shape>
-            <solid android:color="@android:color/transparent" />
-            <stroke
-                android:width="3dp"
-                android:color="#C81F25" />
-        </shape>
-    </item>
-
 </layer-list>

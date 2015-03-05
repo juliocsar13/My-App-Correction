@@ -3,7 +3,7 @@
 
 
     android:exitFadeDuration="@android:integer/config_shortAnimTime">
-    <item android:state_enabled="true"
+    <item android:state_selected="true"
         android:drawable="@drawable/desing_edittext"/>
     <item android:drawable="@drawable/desing_registro_change"/>
 

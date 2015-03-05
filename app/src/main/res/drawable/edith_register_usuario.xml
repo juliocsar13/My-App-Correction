@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:drawable="@drawable/textfield_default" android:state_enabled="true" android:state_window_focused="false"/>
-    <item android:drawable="@drawable/textfield_pressed" android:state_pressed="true"/>
-    <item android:drawable="@drawable/textfield_selected" android:state_enabled="true" android:state_focused="true"/>
+
+    <item android:drawable="@drawable/tres_next" android:state_pressed="true"/>
+    <item android:drawable="@drawable/dos_midle" android:state_enabled="true" android:state_focused="true"/>
+    <item android:drawable="@drawable/uno_preview"/>
+
+
 </selector>

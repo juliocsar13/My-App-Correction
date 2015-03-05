@@ -14,7 +14,8 @@
         android:background="#fff"
         android:paddingLeft="5dp"
         android:paddingRight="5dp"
-        android:paddingTop="10dp">
+        android:paddingTop="10dp"
+        android:id="@+id/julio">
 
         <EditText
             android:id="@+id/editText_estilo"
@@ -50,13 +51,21 @@
             android:text="ROJJO"
             android:gravity="center"
             android:background="@drawable/edith_registro_change_cuatro"/>
-        <EditText
+       <EditText
             android:layout_width="fill_parent"
             android:layout_height="50dp"
             android:gravity="center"
             android:text="VERDE OBSCURO MIERDA"
             android:layout_marginTop="20dp"
             android:background="@drawable/edith_registro_change_cinco"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="VERDE OBSCURO MIERDA"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/primer_layer_list"/>
 
     </LinearLayout>
 
