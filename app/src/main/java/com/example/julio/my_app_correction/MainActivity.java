@@ -21,8 +21,9 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_activity9);
+        setContentView(R.layout.activity_main_activity2);
 
+     //   SlidingUpPanelLayout slidingPanel = (SlidingUpPanelLayout) findViewById (R.id.sliding_panel); slidingPanel.hidePanel ();
      /*   EditText edit= (EditText) findViewById(R.id.edit2);
         edit.setEnabled(true);*/
 
