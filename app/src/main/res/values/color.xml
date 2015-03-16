@@ -3,5 +3,7 @@
     <color name="blue">#ff1217ff</color>
     <color name="transparent">#ff9b9aff</color>
     <color name="edith_transparet">#ffffff</color>
-
+    <color name="rojo">#fff5f3f3</color>
+    <color name="rojoclaro">#ffffb5b7</color>
+    <color name="listfondo">#ff2d22ff</color>
 </resources>

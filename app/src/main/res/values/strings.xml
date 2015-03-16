@@ -16,6 +16,8 @@
         <string name="send">send</string>
         <string name="search">search</string>
         <string name="custom">custom</string>
+    <string name="Maincontent">Main Content</string>
+    <string name="slidingpanel">The Awesome Sliding Up Panel</string>
 
 
 </resources>

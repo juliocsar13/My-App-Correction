@@ -70,4 +70,26 @@
 
     <dimen name="textize_edith_main">17sp</dimen>
     <dimen name="textsize_button_main">15sp</dimen>-->
+    
+    
+    <!--DIMENSIONES PARA EL MAPA DATA TAXISTA-->
+    <dimen name="layout_left_layout_data">20dp</dimen>
+    <dimen name="TextSize_data">16sp</dimen>
+    <dimen name="TextSize_umanoPanelHeight_data">17sp</dimen>
+    <dimen name="layout_marginTop_data">10dp</dimen>
+    <dimen name="layout_umanoPanelHeight_data">60dp</dimen>
+    <dimen name="layout_width_data">10sp</dimen>
+    <dimen name="layout_height_data">10sp</dimen>
+    <dimen name="layout_width_umanoPanelHeight_Image">25dp</dimen>
+    <dimen name="layout_height_umanoPanelHeight_Image">30dp</dimen>
+    <dimen name="layout_width_umanoPanelHeight_Image_Bottom">100dp</dimen>
+    <dimen name="layout_height_umanoPanelHeight_Image_Bottom">100dp</dimen>
+
+
+
+
+
+
+    
+
 </resources>
