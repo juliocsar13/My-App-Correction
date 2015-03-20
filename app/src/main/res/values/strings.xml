@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-  <!--  <string name="app_name">My-App-Correction</string>
+    <string name="app_name">My-App-Correction</string>
     <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string> -->
+    <string name="action_settings">Settings</string>
     <string name="title_activity_main_activity2">MainActivity2</string>
     <string name="title_activity_main_activity4">MainActivity4Activity</string>
     <string name="title_activity_main_activity6">MainActivity6</string>
@@ -11,27 +11,4 @@
     <string name="title_activity_main_activity8">MainActivity8</string>
     <string name="title_activity_main_activity9">MainActivity9</string>
 
-
-    <string name="app_name">Slider Menu</string>
-    <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="drawer_open">Slider Menu Opened</string>
-    <string name="drawer_close">Slider Menu Closed</string>
-
-    <!-- Nav Drawer Menu Items -->
-    <string-array name="nav_drawer_items">
-        <item >Home</item>
-        <item >Find People</item>
-        <item >Photos</item>
-        <item >Communities</item>
-        <item >Pages</item>
-        <item >What\'s Hot</item>
-    </string-array>
-
-    <!-- Nav Drawer List Item Icons -->
-    <!-- Keep them in order as the titles are in -->
-
-
-    <!-- Content Description -->
-    <string name="desc_list_item_icon">Item Icon</string>
 </resources>

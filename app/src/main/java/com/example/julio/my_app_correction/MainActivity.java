@@ -21,8 +21,9 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_activity9);
+        setContentView(R.layout.sliding_panelayout);
 
+     //   SlidingUpPanelLayout slidingPanel = (SlidingUpPanelLayout) findViewById (R.id.sliding_panel); slidingPanel.hidePanel ();
      /*   EditText edit= (EditText) findViewById(R.id.edit2);
         edit.setEnabled(true);*/
 
@@ -50,7 +51,7 @@ public class MainActivity extends Activity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
+        // automatically handle clicks on the Home/Up bu     tton, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 

@@ -70,12 +70,4 @@
 
     <dimen name="textize_edith_main">17sp</dimen>
     <dimen name="textsize_button_main">15sp</dimen>-->
-
-<!--dimensiones de slidinPanelLAYOUT-->
-    <dimen name="widht_image_Taxi">130dp</dimen>
-    <dimen name="height_image_taxi">130dp</dimen>
-    <dimen name="leftmargin_taxi">50dp</dimen>
-    <dimen name="leftmargin_taxi_text">2dp</dimen>
-    <dimen name="marginTop_layout_taxi">10dp</dimen>
-    <dimen name="textsize_taxi">15sp</dimen>
 </resources>
