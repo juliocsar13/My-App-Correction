@@ -86,6 +86,17 @@
     <dimen name="layout_height_umanoPanelHeight_Image_Bottom">100dp</dimen>
 
 
+    <!--DIMENSIONES PARA LAYOUT MAP DE TAXIXSTA-->
+
+    <dimen name="layout_left_image">60dp</dimen>
+    <dimen name="layout_left_text">5dp</dimen>
+    <dimen name="layout_padding_text_coment">3dp</dimen>
+    <dimen name="textsize_data_taxtista">16sp</dimen>
+    <dimen name="textsize_comentario">18sp</dimen>
+    <dimen name="layout_marignTop_comentario">10dp</dimen>
+
+
+
 
 
 

@@ -69,4 +69,11 @@
     <dimen name="textize_edith_main">20sp</dimen>
     <dimen name="textsize_button_main">16sp</dimen>
 
+    <!--DIMENSIONES PARA LAYOUT MAP DE TAXIXSTA-->
+    <dimen name="layout_left_image">60dp</dimen>
+    <dimen name="layout_left_text">5dp</dimen>
+    <dimen name="layout_padding_text_coment">3dp</dimen>
+    <dimen name="textsize_data_taxtista">16sp</dimen>
+    <dimen name="textsize_comentario">18sp</dimen>
+    <dimen name="layout_marignTop_comentario">20dp</dimen>
 </resources>

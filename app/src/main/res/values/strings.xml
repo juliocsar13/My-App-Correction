@@ -11,13 +11,20 @@
     <string name="title_activity_main_activity8">MainActivity8</string>
     <string name="title_activity_main_activity9">MainActivity9</string>
     <string name="title_activity_main_activity10">MainActivity10</string>
-
-        <string name="app_name">ime Options - danielme.com</string>
-        <string name="send">send</string>
-        <string name="search">search</string>
-        <string name="custom">custom</string>
+    <string name="app_name">ime Options - danielme.com</string>
+    <string name="send">send</string>
+    <string name="search">search</string>
+    <string name="custom">custom</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_place_map_fragment">PlaceMapFragment</string>
+    <string name="title_activity_dialog_user">DialogUserActivity</string>
+    <string name="usuario_register">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="name">Nombre</string>
+    <string name="lastname">Apellido</string>
+    <string name="Email">E-mail</string>
+    <string name="numbertelefono">Numero-Tel</string>
     <string name="Maincontent">Main Content</string>
-    <string name="slidingpanel">The Awesome Sliding Up Panel</string>
-
-
+    <string name="slidingpanel">Bienvenido a AkiTaxi</string>
 </resources>
