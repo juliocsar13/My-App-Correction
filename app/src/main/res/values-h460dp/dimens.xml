@@ -81,4 +81,11 @@
     <dimen name="textsize_data_taxtista">16sp</dimen>
     <dimen name="textsize_comentario">18sp</dimen>
     <dimen name="layout_marignTop_comentario">20dp</dimen>
+
+
+    <!--DIMENSINES PARA EDITH MAP USUARIO-->
+
+    <dimen name="width_mapedith">220dp</dimen>
+    <dimen name="height_mapedith">48dp</dimen>
+    <dimen name="textsize_mapedith">16sp</dimen>
 </resources>

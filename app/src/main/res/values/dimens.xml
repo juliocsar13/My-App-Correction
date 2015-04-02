@@ -96,7 +96,11 @@
     <dimen name="layout_marignTop_comentario">10dp</dimen>
 
 
+    <!--DIMENSINES PARA EDITH MAP USUARIO-->
 
+    <dimen name="layout_width_mapedith">220dp</dimen>
+    <dimen name="layout_height_mapedith">48dp</dimen>
+    <dimen name="textsize_mapedith">16sp</dimen>
 
 
 
