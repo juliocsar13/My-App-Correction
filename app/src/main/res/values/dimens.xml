@@ -88,6 +88,27 @@
     <dimen name="layout_height_mapedith">48dp</dimen>
     <dimen name="textsize_mapedith">16sp</dimen>
 
+    <!--DIMENSIONES DE LAYOUT MAPA-->
+    <dimen name="layout_with_buton_maps">153dp</dimen>
+    <dimen name="layout_height_button_maps">50dp</dimen>
+    <!--dimensiones de slider - maps-->
+    <dimen name="layout_bottom_bottom">1dp</dimen>
+    <dimen name="layout_height_slider_maps">60dp</dimen>
+    <dimen name="layout_all_buttom_maps">2dp</dimen>
+    <dimen name="textsize_button_maps">15sp</dimen>
+
+    <!--dimensiones interior panel-->
+    <dimen name="widht_image_Taxi">130dp</dimen>
+    <dimen name="height_image_taxi">130dp</dimen>
+    <dimen name="leftmargin_taxi">50dp</dimen>
+    <dimen name="leftmargin_taxi_text">2dp</dimen>
+    <dimen name="marginTop_layout_taxi">10dp</dimen>
+    <dimen name="textsize_taxi">15sp</dimen>
+
+
+
+
+
     <!--DIMENSIONES PARA DATOS DEL USUARIO SLIDINGPANELAYOUT-->
     <dimen name="Layout_widhtHeight_SlidingImage">60dp</dimen>
     <dimen name="Layout_Height_SlidingImageReferencia">120dp</dimen>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffffff">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@color/SlidingPaneLayout">
+            <ImageView
+                android:id="@+id/imgTaxi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:src="@drawable/ic_action_user"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="2dp" />
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="Dato de Taxista"
+                android:textSize="16sp"
+                android:layout_marginLeft="3dp" />
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imgTaxi2"
+                android:layout_width="@dimen/widht_image_Taxi"
+                android:layout_height="@dimen/height_image_taxi"
+                android:src="@drawable/ic_action_user_two"
+                android:layout_gravity="center_horizontal" />
+            <!--DATOS DEL TAXISTA NOMBRE Y APELLIDO-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_action_user1"
+                    android:layout_marginLeft="@dimen/leftmargin_taxi" />
+                <TextView
+                    android:id="@+id/txt_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nombre y Apellido"
+                    android:textSize="@dimen/textsize_taxi"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/leftmargin_taxi_text"/>
+
+            </LinearLayout>
+            <!--DATOS DEL TAXISTA placa del taxisata-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_action_phone_start"
+                    android:layout_marginLeft="@dimen/leftmargin_taxi" />
+                <TextView
+                    android:id="@+id/txt_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Numero cel"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/leftmargin_taxi_text"
+                    android:textSize="@dimen/textsize_taxi" />
+            </LinearLayout>
+            <!--DATOS DEL TAXISTA NUMERO-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_action_car"
+                    android:layout_marginLeft="@dimen/leftmargin_taxi" />
+                <TextView
+                    android:id="@+id/txt_autoplate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Numero de placa"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/leftmargin_taxi_text"
+                    android:textSize="@dimen/textsize_taxi" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
