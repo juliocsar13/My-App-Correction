@@ -12,58 +12,89 @@
     android:background="@drawable/profondos">
 
     <TextView
-
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Resgistrate Aqui"
+        android:layout_width="wrap_content"
+        android:text="Registrate Aqui"
         android:id="@+id/textView"
-        android:singleLine="false"
-        android:textSize="30sp"
-        android:layout_gravity="top|center_horizontal" />
-
-
-    <EditText
-
-        style="@style/MyEdith_registre"
-        android:ems="10"
-        android:hint="Usuario"
-        android:id="@+id/edtUserName"
-        android:layout_marginTop="@dimen/layout_marginTop_titulo_registro" />
-    <EditText
-        style="@style/MyEdith_registre"
-        android:ems="10"
-        android:hint="Contraseña"
-        android:password="true"
-        android:id="@+id/edtPassword"/>
+        android:ellipsize = "start"
+        android:singleLine="true"
+        android:imeOptions="actionNext|flagNoExtractUi"
+        android:inputType="text"
+        android:layout_gravity="center_horizontal" />
 
     <EditText
         style="@style/MyEdith_registre"
         android:ems="10"
-        android:hint="Nombre"
+        android:ellipsize = "start"
+        android:singleLine="true"
+        android:imeOptions="actionNext|flagNoExtractUi"
+        android:inputType="text"
+        android:hint="@string/usuario_register"
+        android:id="@+id/edtUserName" />
+
+    <EditText
+        style="@style/MyEdith_registre"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:ellipsize = "start"
+        android:singleLine="true"
+        android:imeOptions="actionNext|flagNoExtractUi"
+        android:maxLength="15"
+        android:id="@+id/edtPassword" />
+
+    <EditText
+        style="@style/MyEdith_registre"
+        android:ems="10"
+        android:ellipsize = "start"
+        android:singleLine="true"
+        android:imeOptions="actionNext|flagNoExtractUi"
+        android:inputType="text"
+        android:hint="@string/name"
         android:id="@+id/edtName"/>
 
     <EditText
         style="@style/MyEdith_registre"
         android:ems="10"
-        android:hint="Apellido"
+        android:ellipsize = "start"
+        android:singleLine="true"
+        android:imeOptions="actionNext|flagNoExtractUi"
+        android:inputType="text"
+        android:hint="@string/lastname"
         android:id="@+id/edtLastName" />
 
     <EditText
         style="@style/MyEdith_registre"
         android:ems="10"
-        android:hint="E-mail"
+        android:ellipsize = "start"
+        android:singleLine="true"
+        android:imeOptions="actionNext|flagNoExtractUi"
+        android:inputType="text"
+        android:hint="@string/Email"
         android:id="@+id/edtEmail"/>
 
     <EditText
+
         style="@style/MyEdith_registre"
         android:ems="10"
-        android:hint="Numero - Tel"
-        android:id="@+id/edtPhoneNumber"/>
+        android:ellipsize = "start"
+        android:singleLine="true"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:imeActionId="@+id/btnRegister"
+        android:hint="@string/numbertelefono"
+        android:id="@+id/edtPhoneNumber" />
 
     <Button
+
+
         style="@style/MyButton_registro"
         android:text="Registrarse"
-        android:id="@+id/btnRegister" />
+        android:ellipsize = "start"
+        android:singleLine="true"
+        android:id="@+id/btnRegister"/>
+
+
 
 
 
