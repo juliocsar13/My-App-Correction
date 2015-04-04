@@ -8,7 +8,7 @@
         android:id="@+id/editText1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/send"
+        android:hint="julio"
         android:imeOptions="actionSend"
         android:inputType="text">
 
@@ -18,7 +18,7 @@
         android:id="@+id/editText2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/search"
+        android:hint="julio"
         android:imeOptions="actionSearch"
         android:inputType="text">
     </EditText>
@@ -27,9 +27,9 @@
         android:id="@+id/editText3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/custom"
+        android:hint="julio"
         android:imeActionId="@+id/action_custom"
-        android:imeActionLabel="@string/custom"
+        android:imeActionLabel="232"
         android:inputType="text">
     </EditText>
 

@@ -70,4 +70,20 @@
 
     <dimen name="textize_edith_main">17sp</dimen>
     <dimen name="textsize_button_main">15sp</dimen>-->
+
+
+
+    <!--DIMENSIONES PARA DATOS DEL USUARIO SLIDINGPANELAYOUT-->
+    <dimen name="Layout_widhtHeight_SlidingImage">60dp</dimen>
+    <dimen name="Layout_Height_SlidingImageReferencia">120dp</dimen>
+    <dimen name="Laoyut_MarginRigntImage">5dp</dimen>
+    <dimen name="Layout_MarginTopText">-4dp</dimen>
+    <dimen name="Layout_MarginLeftLayout">10dp</dimen>
+    <dimen name="PaddingImage_SlidingPaneLayout">7dp</dimen>
+    <dimen name="Layout_MarginTop_SlidingPaneLayout">4dp</dimen>
+    <dimen name="Layout_MarginRightLeft_SlidingPaneLayout">20dp</dimen>
+    <dimen name="TextSize_Title_SlidingPaneLayout">18sp</dimen>
+    <dimen name="TextSize_General_SlidingPaneLayout">16sp</dimen>
+    <dimen name="Layout_MarginRightText">6dp</dimen>
+
 </resources>

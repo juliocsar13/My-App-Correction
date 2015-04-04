@@ -20,7 +20,6 @@
                 android:onClick="sendRequest"
                 android:background="@drawable/asul"
                 android:textColor="#ff000000"
-                android:textSize="@dimen/textsize_button_maps"
                 android:layout_margin="2dp" />
             <Button
                 android:layout_width="150dp"
@@ -30,7 +29,6 @@
                 android:id="@+id/btnCancelTaxi"
                 android:onClick="cancelRequest"
                 android:textColor="#ff000000"
-                android:textSize="@dimen/textsize_button_maps"
                 android:layout_margin="2dp" />
         </LinearLayout>
     </LinearLayout>

@@ -10,5 +10,8 @@
     <string name="title_activity_main_activity7">MainActivity7</string>
     <string name="title_activity_main_activity8">MainActivity8</string>
     <string name="title_activity_main_activity9">MainActivity9</string>
+    <string name="title_activity_main_activity10">MainActivity10</string>
+    <string name="slidingpanelayout_referencia">text para la informacion personal del usuario, forma de vestir, etc. para
+    una mayor localizacion</string>
 
 </resources>
