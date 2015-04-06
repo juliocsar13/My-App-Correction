@@ -76,6 +76,7 @@
 
 
     <!--dimensiones de slidinPanelLAYOUT-->
+    <dimen name="layout_widthheight_Imagemap">50dp</dimen>
     <dimen name="widht_image_Taxi">130dp</dimen>
     <dimen name="height_image_taxi">130dp</dimen>
     <dimen name="leftmargin_taxi">50dp</dimen>

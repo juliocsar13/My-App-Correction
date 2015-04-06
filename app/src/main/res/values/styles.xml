@@ -86,7 +86,7 @@
         <item name="android:layout_marginRight">@dimen/layout_marginRight_user</item>
     </style>
 
-    <style name="foodRatingBar" parent="@android:style/Widget.RatingBar">
+    <style name="foodRatingBaro" parent="@android:style/Widget.RatingBar">
         <item name="android:progressDrawable">@drawable/estrella</item>
         <item name="android:minHeight">48dip</item>
         <item name="android:maxHeight">48dip</item>
@@ -105,5 +105,11 @@
         <item name="android:shadowDx">1</item>
         <item name="android:shadowDy">1</item>
         <item name="android:shadowRadius">2</item>
+    </style>
+
+    <style name="foodRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/food_ratingbar_full</item>
+        <item name="android:minHeight">128dp</item>
+        <item name="android:maxHeight">128dp</item>
     </style>
 </resources>

@@ -17,11 +17,12 @@ public class MainActivity extends Activity {
 
 /*    private MediaPlayer np;
     private Button btnPrimerRegister;
+
 */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.responsive_desing_slidingpanelayout);
+        setContentView(R.layout.activity_main_activity5);
 
      //   SlidingUpPanelLayout slidingPanel = (SlidingUpPanelLayout) findViewById (R.id.sliding_panel); slidingPanel.hidePanel ();
      /*   EditText edit= (EditText) findViewById(R.id.edit2);

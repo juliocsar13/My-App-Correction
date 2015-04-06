@@ -29,13 +29,13 @@
         android:singleLine="true"
         android:imeOptions="actionNext|flagNoExtractUi"
         android:inputType="text"
-        android:hint="@string/usuario_register"
+
         android:id="@+id/edtUserName" />
 
     <EditText
         style="@style/MyEdith_registre"
         android:ems="10"
-        android:hint="@string/password"
+
         android:inputType="textPassword"
         android:ellipsize = "start"
         android:singleLine="true"
@@ -50,7 +50,7 @@
         android:singleLine="true"
         android:imeOptions="actionNext|flagNoExtractUi"
         android:inputType="text"
-        android:hint="@string/name"
+
         android:id="@+id/edtName"/>
 
     <EditText
@@ -60,7 +60,7 @@
         android:singleLine="true"
         android:imeOptions="actionNext|flagNoExtractUi"
         android:inputType="text"
-        android:hint="@string/lastname"
+
         android:id="@+id/edtLastName" />
 
     <EditText
@@ -70,7 +70,7 @@
         android:singleLine="true"
         android:imeOptions="actionNext|flagNoExtractUi"
         android:inputType="text"
-        android:hint="@string/Email"
+
         android:id="@+id/edtEmail"/>
 
     <EditText
@@ -82,7 +82,7 @@
         android:imeOptions="actionDone"
         android:inputType="text"
         android:imeActionId="@+id/btnRegister"
-        android:hint="@string/numbertelefono"
+
         android:id="@+id/edtPhoneNumber" />
 
     <Button
