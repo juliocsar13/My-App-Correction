@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="bottom">
+
+        <Button
+            android:layout_width="@dimen/layout_with_buton_maps"
+            android:layout_height="@dimen/layout_height_button_maps"
+            android:text="Llamar Taxi"
+            android:id="@+id/btnCallTaxi"
+            android:background="@drawable/asul"
+            android:textColor="#ff333333"
+            android:layout_gravity="bottom"
+            android:layout_margin="4dp"
+            android:textSize="15sp"/>
+
+        <Button
+            android:layout_width="@dimen/layout_with_buton_maps"
+            android:layout_height="@dimen/layout_height_button_maps"
+            android:text="Cancelar taxi"
+            android:background="@drawable/rojo"
+            android:id="@+id/btnCancelTaxi"
+            android:textColor="#ff333333"
+            android:layout_gravity="bottom"
+            android:layout_margin="4dp"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="68dp"
+        android:background="@color/blue_light"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/slidingpanel"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+
+
+        </LinearLayout>
+</LinearLayout>

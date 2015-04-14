@@ -14,5 +14,7 @@
     <string name="slidingpanelayout_referencia">text para la informacion personal del usuario, forma de vestir, etc. para
     una mayor localizacion</string>
     <string name="slidingpanel">Bienvenido a AkiTaxi</string>
+    <string name="text_move">this es un tiempo muy largo fragmento de texto que se moverá</string>
+    <string name="text_moveo">dondercats dondercats dondercats ohhhhhhhhhhhhhhhhhhhhh!!!</string>
 
 </resources>

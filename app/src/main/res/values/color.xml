@@ -9,4 +9,6 @@
     <color name="rojoclaro">#ff137fae</color>
     <color name="SlidingPaneLayout">#ff137fae</color>
     <color name="SlidingPaneLayoutBottom">#ffbdb8b5</color>
+    <color name="blue_dark">#ff1217ff</color>
+    <color name="blue_light">#ff137fae</color>
 </resources>

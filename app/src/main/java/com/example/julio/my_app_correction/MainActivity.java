@@ -1,16 +1,22 @@
 package com.example.julio.my_app_correction;
 
+import android.animation.ObjectAnimator;
 import android.app.Activity;
 import android.content.Intent;
 import android.media.MediaPlayer;
+import android.support.v4.view.ViewPager;
+
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.EditText;
-
+import android.widget.ImageView;
+import android.widget.TextView;
 
 
 public class MainActivity extends Activity {
@@ -19,11 +25,14 @@ public class MainActivity extends Activity {
     private Button btnPrimerRegister;
 
 */
+    Animation lineTranslate;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_activity5);
-
+        setContentView(R.layout.animacion_pruebas);
+        ImageView image = (ImageView) findViewById(R.id.image_animation);
+        Animation animacion = AnimationUtils.loadAnimation(this,R.anim.line_translate);
+        image.startAnimation(animacion);
      //   SlidingUpPanelLayout slidingPanel = (SlidingUpPanelLayout) findViewById (R.id.sliding_panel); slidingPanel.hidePanel ();
      /*   EditText edit= (EditText) findViewById(R.id.edit2);
         edit.setEnabled(true);*/

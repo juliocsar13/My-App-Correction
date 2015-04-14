@@ -109,7 +109,13 @@
 
     <style name="foodRatingBar" parent="@android:style/Widget.RatingBar">
         <item name="android:progressDrawable">@drawable/food_ratingbar_full</item>
-        <item name="android:minHeight">128dp</item>
-        <item name="android:maxHeight">128dp</item>
+        <item name="android:minHeight">128dip</item>
+        <item name="android:maxHeight">128dip</item>
+    </style>
+
+    <style name="foodRatingBaros" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/twiter</item>
+        <item name="android:minHeight">128dip</item>
+        <item name="android:maxHeight">128dip</item>
     </style>
 </resources>
