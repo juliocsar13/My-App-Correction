@@ -17,4 +17,35 @@
     <string name="text_move">this es un tiempo muy largo fragmento de texto que se moverá</string>
     <string name="text_moveo">dondercats dondercats dondercats ohhhhhhhhhhhhhhhhhhhhh!!!</string>
 
+
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_place_map_fragment">PlaceMapFragment</string>
+    <string name="title_activity_dialog_user">DialogUserActivity</string>
+    <string name="main.user.name">Usuario</string>
+    <string name="main.user.password">Contraseña</string>
+    <string name="main.user.button1">Iniciar sesion</string>
+    <string name="main.user.button2">Registrarse</string>
+    <string name="Maincontent">Main Content</string>
+    <string name="title_activity_dialog_details_service">DialogDetailsService</string>
+    <string name="dialog.user.name">Nombre :</string>
+    <string name="dialog.user.placa">Placa :</string>
+    <string name="dialog.user.phone">Telefono :</string>
+    <string name="dialog.user.button">Aceptar</string>
+    <string name="dialog.radar.search">Buscando Taxistas, no cierre la Aplicacion</string>
+    <string name="dialog.radar.cancel">Cancelar solicitud</string>
+    <string name="dialog.details.address">Dirección :</string>
+    <string name="register.hint.title">Registrate Aqui</string>
+    <string name="register.hint.name">Nombre</string>
+    <string name="register.hint.last.name">Apellido</string>
+    <string name="register.hint.email">E-mail</string>
+    <string name="register.hint.number.phone">Numero-Tel</string>
+    <string name="register.button.register">Registrarse</string>
+    <string name="map.hint.note">Escribir nota (opcional)</string>
+    <string name="map.button.call">Llamar Taxi</string>
+    <string name="map.button.cancel">Cancelar taxi</string>
+    <string name="map.layout.welcome">Bienvenido a AkiTaxi</string>
+    <string name="map.layout.last.name">Nombre y Apellido</string>
+    <string name="map.layout.number.phone">Numero de celular</string>
+    <string name="map.layout.number.placa">Numero de placa</string>
 </resources>

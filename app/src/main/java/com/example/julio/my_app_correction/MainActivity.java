@@ -1,11 +1,11 @@
 package com.example.julio.my_app_correction;
 
+
 import android.animation.ObjectAnimator;
 import android.app.Activity;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.support.v4.view.ViewPager;
-
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -29,10 +29,12 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.animacion_pruebas);
-        ImageView image = (ImageView) findViewById(R.id.image_animation);
+        setContentView(R.layout.solo_prueba);
+
+        /*ImageView image = (ImageView) findViewById(R.id.image_animation);
         Animation animacion = AnimationUtils.loadAnimation(this,R.anim.line_translate);
-        image.startAnimation(animacion);
+        image.startAnimation(animacion);*/
+
      //   SlidingUpPanelLayout slidingPanel = (SlidingUpPanelLayout) findViewById (R.id.sliding_panel); slidingPanel.hidePanel ();
      /*   EditText edit= (EditText) findViewById(R.id.edit2);
         edit.setEnabled(true);*/
@@ -61,7 +63,7 @@ public class MainActivity extends Activity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up bu     tton, so long
+        // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 

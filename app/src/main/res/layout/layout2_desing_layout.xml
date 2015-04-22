@@ -15,7 +15,7 @@
 
     <LinearLayout
         android:layout_width="fill_parent"
-        android:layout_height="400dp"
+        android:layout_height="350dp"
         android:background="@drawable/desing_layout"
         android:layout_margin="10dp"
         android:gravity="bottom">

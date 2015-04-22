@@ -3,7 +3,6 @@
     <color name="blue">#ff1217ff</color>
     <color name="transparent">#ff9b9aff</color>
     <color name="edith_transparet">#ffffff</color>
-
     <color name="listfondo">#ff2d22ff</color>
     <color name="rojo">#ffff020c</color>
     <color name="rojoclaro">#ff137fae</color>
@@ -11,4 +10,7 @@
     <color name="SlidingPaneLayoutBottom">#ffbdb8b5</color>
     <color name="blue_dark">#ff1217ff</color>
     <color name="blue_light">#ff137fae</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#ff000000</color>
+    <color name="lead_transparent">#54575750</color>
 </resources>
