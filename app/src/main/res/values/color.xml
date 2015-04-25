@@ -11,6 +11,11 @@
     <color name="blue_dark">#ff1217ff</color>
     <color name="blue_light">#ff137fae</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="black">#ff000000</color>
+    <color name="black">#ffff2d05</color>
     <color name="lead_transparent">#54575750</color>
+    <color name="blue_white_one">#ffffff</color>
+    <color name="blue_white_two">#ffc0c0c0</color>
+    <color name="blue_white_three">#ff8a8a8a</color>
+
+
 </resources>
