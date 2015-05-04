@@ -5,6 +5,7 @@ import android.animation.ObjectAnimator;
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Rect;
+import android.graphics.drawable.AnimationDrawable;
 import android.graphics.drawable.Drawable;
 import android.media.MediaPlayer;
 import android.support.v4.view.ViewPager;
@@ -15,6 +16,7 @@ import android.text.TextWatcher;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.NumberPicker;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -53,14 +55,29 @@ public class MainActivity extends Activity {
             "honguito"
     };
 */
-    private EditText mUsername, mPassword;
-    private Drawable error_indicator;
+   /* private EditText mUsername, mPassword;
+    private Drawable error_indicator;*/
+
+    NumberPicker numberpick = null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.set_error_edit);
+        setContentView(R.layout.layout_slidingpanelayout_responsive_desing);
+/*
+        numberpick = (NumberPicker) findViewById(R.id.numberPicker1);
+        numberpick.setMaxValue(3);
+        numberpick.setMinValue(1);
+        numberpick.setWrapSelectorWheel(false);*/
 
-        error_indicator = getResources().getDrawable(R.drawable.food_ratingbar_full_filled);
+
+    }
+/*
+        ImageView img = (ImageView)findViewById(R.id.radar);
+        img.setBackgroundResource(R.drawable.radar);
+        AnimationDrawable frameAnimation = (AnimationDrawable) img.getBackground();
+        frameAnimation.start();
+    }*/
+        /*error_indicator = getResources().getDrawable(R.drawable.food_ratingbar_full_filled);
         int left = 0;
         int top = 0;
         int right =error_indicator.getIntrinsicHeight();
@@ -68,7 +85,7 @@ public class MainActivity extends Activity {
 
         error_indicator.setBounds(new Rect(left, top, right, bottom));
 
-        mUsername = (EditText) findViewById(R.id.editText1_set_error);
+        mUsername = ( EditText) findViewById(R.id.editText1_set_error);
         mPassword = (EditText) findViewById(R.id.email_set_error);
 
         // Called when user type in EditText
@@ -79,25 +96,21 @@ public class MainActivity extends Activity {
         mUsername.setOnEditorActionListener(new EmptyTextListener(mUsername));
         mPassword.setOnEditorActionListener(new EmptyTextListener(mPassword));
     }
-
     private class InputValidator implements TextWatcher {
         private EditText et;
 
         private InputValidator(EditText editText) {
             this.et = editText;
         }
-
         @Override
         public void afterTextChanged(Editable s) {
 
         }
-
         @Override
         public void beforeTextChanged(CharSequence s, int start, int count,
                                       int after) {
 
         }
-
         @Override
         public void onTextChanged(CharSequence s, int start, int before,
                                   int count) {
@@ -109,7 +122,6 @@ public class MainActivity extends Activity {
                         }
                     }
                     break;
-
                     case R.id.email_set_error: {
                         if (!Pattern.matches("^[a-zA-Z]{1,16}$", s)) {
                             et.setError("Oops! Password must have only a-z and A-Z");
@@ -140,7 +152,7 @@ public class MainActivity extends Activity {
             return false;
         }
     }
-
+*/
 /*
         editText = (EditText) findViewById(R.id.editText1);
         editEmail= (EditText) findViewById(R.id.email);

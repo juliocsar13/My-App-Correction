@@ -5,6 +5,8 @@
         <!-- Customize your theme here. -->
     </style>
 
+
+
     <style name="MyEditex">
         <item name = "android:layout_width">@dimen/layout_with_edit</item>
         <item name = "android:layout_height">@dimen/layout_height_edit</item>

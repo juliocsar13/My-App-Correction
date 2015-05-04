@@ -34,7 +34,6 @@
         android:ellipsize="marquee"
         android:focusable="true"
         android:text="@string/text_moveo"
-        android:textAllCaps="true"
         android:focusableInTouchMode="true"
         android:marqueeRepeatLimit="marquee_forever"
         android:scrollHorizontally="true"

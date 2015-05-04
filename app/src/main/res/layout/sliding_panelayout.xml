@@ -1,105 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-    xmlns:sothree="http://schemas.android.com/apk/res-auto"
-    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="bottom"
-    sothree:umanoPanelHeight="65dp"
-    sothree:umanoShadowHeight="4dp">
-
+    android:orientation="vertical"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@color/green">
+        <ImageView
+            android:id="@+id/imgTaxi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginStart="3dp"
+            android:src="@drawable/ic_action_user"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="2dp" />
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/map.layout.welcome"
+            android:textSize="16sp"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"/>
+    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center|top"
-        android:orientation="vertical"
-        android:background="@color/rojo">
+        android:orientation="vertical">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="68dp"
-            android:background="@color/listfondo"
-            android:orientation="horizontal">
-            <ImageView
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:background="@drawable/ic_action_twitter"
-                android:layout_gravity="center_vertical" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_gravity="center"
-                android:textSize="16sp"/>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:divider="@color/black"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp">
             <ImageView
-                android:layout_width="100dp"
+                android:layout_width="match_parent"
                 android:layout_height="100dp"
-                android:background="@drawable/house"/>
-            <!--DATOS DEL TAXISTA NOMBRE-->
-            <LinearLayout
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/carro_taxista" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/foto_taxista" />
+
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/border_img">
+            <ImageView
+                android:layout_width="@dimen/image_width_normal"
+                android:layout_height="@dimen/image_height_normal"
+                android:src="@drawable/ic_action_user1"
+                android:layout_marginLeft="@dimen/spacing_huge"
+                android:layout_marginStart="@dimen/spacing_huge"/>
+            <TextView
+                android:id="@+id/txt_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:orientation="horizontal">
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/ic_action_users"
-                    android:padding="12dp" />
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="TU PAPI JULIO"/>
-            </LinearLayout>
-            <!--DATOS DEL TAXISTA APELLIDO-->
-            <LinearLayout
+                android:text="@string/map.layout.last.name"
+                android:textSize="@dimen/font_normal"
+                android:textColor="@color/black"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/spacing_tiny"
+                android:layout_marginStart="@dimen/spacing_tiny"/>
+        </LinearLayout>
+        <!--DATOS DEL TAXISTA placa del taxisata-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/border_img">
+            <ImageView
+                android:layout_width="@dimen/image_width_normal"
+                android:layout_height="@dimen/image_height_normal"
+                android:src="@drawable/ic_action_phone_start"
+                android:layout_marginLeft="@dimen/spacing_huge"
+                android:layout_marginStart="@dimen/spacing_huge"/>
+            <TextView
+                android:id="@+id/txt_phone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:orientation="horizontal">
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/ic_action_users"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="TU PAPI JULIO"/>
-            </LinearLayout>
-            <!--DATOS DEL TAXISTA NUMERO-->
-            <LinearLayout
+                android:textColor="@color/black"
+                android:text="@string/map.layout.number.phone"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/spacing_tiny"
+                android:layout_marginStart="@dimen/spacing_tiny"
+                android:textSize="@dimen/font_normal" />
+        </LinearLayout>
+        <!--DATOS DEL TAXISTA NUMERO-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/border_img">
+            <ImageView
+                android:layout_width="@dimen/image_width_normal"
+                android:layout_height="@dimen/image_height_normal"
+                android:src="@drawable/ic_action_car"
+                android:layout_marginLeft="@dimen/spacing_huge"
+                android:layout_marginStart="@dimen/spacing_huge"/>
+            <TextView
+                android:id="@+id/txt_autoplate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:orientation="horizontal">
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/ic_action_users"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="TU PAPI JULIO"/>
-            </LinearLayout>
-            <!--DATOS DEL TAXISTA -->
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:orientation="horizontal">
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/ic_action_users"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="TU PAPI JULIO"/>
-            </LinearLayout>
+                android:text="@string/map.layout.number.placa"
+                android:textColor="@color/black"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/spacing_tiny"
+                android:layout_marginStart="@dimen/spacing_tiny"
+                android:textSize="@dimen/font_normal"/>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

@@ -123,4 +123,51 @@
     <dimen name="TextSize_General_SlidingPaneLayout">16sp</dimen>
     <dimen name="Layout_MarginRightText">6dp</dimen>
 
+
+
+    <dimen name="image_height_logo">200dp</dimen>
+
+
+    <dimen name="edit_width_very_tall">280dp</dimen>
+    <dimen name="edit_width_tall">265dp</dimen>
+    <dimen name="edit_width_normal">230dp</dimen>
+    <dimen name="edit_width_short">200dp</dimen>
+
+    <dimen name="edit_height_very_tall">55dp</dimen>
+    <dimen name="edit_height_tall">55dp</dimen>
+    <dimen name="edit_height_normal">46dp</dimen>
+    <dimen name="edit_height_short">30dp</dimen>
+
+    <dimen name="image_width_very_tall">130dp</dimen>
+    <dimen name="image_width_tall">90dp</dimen>
+    <dimen name="image_width_normal">50dp</dimen>
+    <dimen name="image_width_short">30dp</dimen>
+
+    <dimen name="button_width_very_tall">220dp</dimen>
+    <dimen name="button_width_tall">220dp</dimen>
+    <dimen name="button_width_normal">180dp</dimen>
+    <dimen name="button_width_short">150dp</dimen>
+
+    <dimen name="button_height_very_tall">50dp</dimen>
+    <dimen name="button_height_tall">55dp</dimen>
+    <dimen name="button_height_normal">40dp</dimen>
+    <dimen name="button_height_short">40dp</dimen>
+
+    <dimen name="image_height_very_tall">130dp</dimen>
+    <dimen name="image_height_tall">90dp</dimen>
+    <dimen name="image_height_normal">50dp</dimen>
+    <dimen name="image_height_short">30dp</dimen>
+
+    <dimen name="spacing_huge">50dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_normal">10dp</dimen>
+    <dimen name="spacing_small">5dp</dimen>
+    <dimen name="spacing_tiny">4dp</dimen>
+    <dimen name="spacing_margin">2dp</dimen>
+    <dimen name="spacing_padding">8dp</dimen>
+
+    <dimen name="font_larger">22sp</dimen>
+    <dimen name="font_large">18sp</dimen>
+    <dimen name="font_normal">16sp</dimen>
+    <dimen name="font_small">12sp</dimen>
 </resources>
