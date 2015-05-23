@@ -14,8 +14,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/ratingBar2"
         android:rating="1"
-        android:isIndicator="false"
-        android:layout_gravity="center_horizontal" />
+        android:isIndicator="false" />
 
     <RatingBar
         style="@style/foodRatingBaros"

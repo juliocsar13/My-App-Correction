@@ -9,7 +9,7 @@
     android:clickable="false"
     tools:context="com.example.julio.my_app_correction.MainActivity2"
     android:orientation="vertical"
-    android:background="@drawable/profondos">
+    android:background="@drawable/background">
 
     <TextView
         android:layout_height="wrap_content"
@@ -17,65 +17,109 @@
         android:text="Registrate Aqui"
         android:id="@+id/textView"
         android:ellipsize = "start"
+        android:textStyle="bold"
         android:singleLine="true"
         android:imeOptions="actionNext|flagNoExtractUi"
         android:inputType="text"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:textSize="27dp"
+        android:textColor="#ffffffff" />
 
     <EditText
-        style="@style/MyEdith_registre"
         android:ems="10"
         android:ellipsize = "start"
         android:singleLine="true"
         android:imeOptions="actionNext|flagNoExtractUi"
         android:inputType="text"
-
-        android:id="@+id/edtUserName" />
+        android:drawableLeft="@drawable/ic_mail_register"
+        android:id="@+id/edtUserName"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="@drawable/background_edit_register"
+        android:layout_marginTop="26dp"
+        android:textSize="17sp"
+        android:textColorHint="#cd1f951e"
+        android:hint="Usuario"
+        android:autoText="false"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center|start" />
 
     <EditText
-        style="@style/MyEdith_registre"
         android:ems="10"
 
-        android:inputType="textPassword"
         android:ellipsize = "start"
         android:singleLine="true"
         android:imeOptions="actionNext|flagNoExtractUi"
         android:maxLength="15"
-        android:id="@+id/edtPassword" />
+        android:drawableLeft="@drawable/ic_lock_closed_register"
+        android:id="@+id/edtPassword"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/background_edit_register"
+        android:gravity="center"
+        android:inputType="textVisiblePassword"
+        android:textSize="17sp"
+        android:textColorHint="#cd1f951e"
+        android:hint="Usuario"
+        android:autoText="false" />
 
     <EditText
-        style="@style/MyEdith_registre"
         android:ems="10"
         android:ellipsize = "start"
         android:singleLine="true"
         android:imeOptions="actionNext|flagNoExtractUi"
         android:inputType="text"
-
-        android:id="@+id/edtName"/>
+        android:hint="Usuario"
+        android:id="@+id/edtName"
+        android:drawableLeft="@drawable/ic_user_register"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/background_edit_register"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:textColorHint="#cd1f951e"
+        android:autoText="false" />
 
     <EditText
-        style="@style/MyEdith_registre"
         android:ems="10"
         android:ellipsize = "start"
         android:singleLine="true"
         android:imeOptions="actionNext|flagNoExtractUi"
         android:inputType="text"
-
-        android:id="@+id/edtLastName" />
+        android:drawableLeft="@drawable/ic_user_register"
+        android:id="@+id/edtLastName"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/background_edit_register"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:textColorHint="#cd1f951e"
+        android:hint="Usuario"
+        android:autoText="false"/>
 
     <EditText
-        style="@style/MyEdith_registre"
         android:ems="10"
         android:ellipsize = "start"
         android:singleLine="true"
         android:imeOptions="actionNext|flagNoExtractUi"
         android:inputType="text"
-
-        android:id="@+id/edtEmail"/>
+        android:drawableLeft="@drawable/ic_phone_register"
+        android:id="@+id/edtEmail"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/background_edit_register"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:textColorHint="#cd1f951e"
+        android:hint="Usuario"
+        android:autoText="false" />
 
     <EditText
 
-        style="@style/MyEdith_registre"
         android:ems="10"
         android:ellipsize = "start"
         android:singleLine="true"
@@ -83,7 +127,16 @@
         android:inputType="text"
         android:imeActionId="@+id/btnRegister"
 
-        android:id="@+id/edtPhoneNumber" />
+        android:id="@+id/edtPhoneNumber"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/preview_edit_register"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:textColorHint="#cd1f951e"
+        android:hint="Usuario"
+        android:autoText="false" />
 
     <Button
 

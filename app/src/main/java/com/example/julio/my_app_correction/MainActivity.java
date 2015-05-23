@@ -16,7 +16,7 @@ import android.text.TextWatcher;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.NumberPicker;
+import net.simonvt.numberpicker.NumberPicker;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -62,10 +62,10 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.layout_slidingpanelayout_responsive_desing);
-/*
-        numberpick = (NumberPicker) findViewById(R.id.numberPicker1);
-        numberpick.setMaxValue(3);
+        setContentView(R.layout.activity_main_activity2);
+
+        /*numberpick = (NumberPicker) findViewById(R.id.numberPicker1);
+        numberpick.setMaxValue(10);
         numberpick.setMinValue(1);
         numberpick.setWrapSelectorWheel(false);*/
 
